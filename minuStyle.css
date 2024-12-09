@@ -1,0 +1,36 @@
+body{
+    font-family: "Arial Black";/*fondi tüüp*/
+    color: Darkred; /*teksti värv*/
+}
+h1{
+    border: solid 2px Blue; /*ääris*/
+    padding: 11px; /*vahe tekstist ääriseni*/
+    margin: 15px;
+    border-radius: 20px;
+    width: 20%;
+    background-color: aqua;
+}
+h2{
+    border: dotted 5px Blue; /*dashed, outline, double, solid*/
+    padding: 14px; /*vahe tekstist ääriseni*/
+    margin: 13px; /*vahe veebilehe piirist ääriseni*/
+    border-radius: 30px;
+    width: 27%;/*laius*/
+    background-color: aqua;
+}
+ul{
+    list-style-type: circle; /*markeri tüüp - square, */
+    padding: 7px;
+    background-color: lightskyblue;
+}
+ul li{
+    background-color: lightseagreen;
+    margin: 4px;
+}
+table, td{
+    width: 35%;
+    border: solid 3px ;
+    border-collapse: collapse; /*ühine ääris*/
+    text-align: center; /*teksti joondmine keskele*/
+    background-color: darkcyan;
+}
