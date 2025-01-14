@@ -30,3 +30,6 @@ table#keeruline3, table#keeruline3 td{
     padding: 10px; /*vahe tekstist ääreseni*/
     background-color: lightsteelblue;
 }
+#qwer tr:nth-child(1) td:nth-child(2){
+    background-color: salmon;
+ }
