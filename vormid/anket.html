@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muusika ankeet</title>
+</head>
+<body>
+<h1>Muusika anket</h1>
+<form action="#">
+    <!--teks kast- текстовый ящик-->
+    <label for="nimi">Eesnimi</label>
+    <input type="text" id="nimi" placeholder="Kirjuta nimi">
+<br>
+    <strong>Vali rühm:</strong>
+    <br>
+    <!--radio nupp-->
+    <input type="radio" id="titpv24" name="ryhm" checked>
+    <label for="titpv24">TITpv24</label>
+    <br>
+    <input type="radio" id="logitpv24" name="ryhm">
+    <label for="logitpv24">LOGITpv24</label>
+    <br>
+    <input type="radio" id="tarpv24" name="ryhm">
+    <label for="tarpv24">TARpv24</label>
+    <br>
+    <input type="radio" id="krrpv24" name="ryhm">
+    <label for="krrpv24">KRRpv24</label>
+    <br>
+    <input type="radio" id="mehpv24" name="ryhm">
+    <label for="mehpv24">MEXpv24</label>
+
+<br>
+    <!--checkbox-->
+    <br>
+    <strong>Milline muusikat sa kuulad?</strong>
+    <br>
+    <input type="checkbox" id="rock">
+    <label for="rock">Rock</label>
+    <br>
+    <input type="checkbox" id="fonk">
+    <label for="fonk">Fonk</label>
+    <br>
+    <input type="checkbox" id="heavymetal">
+    <label for="heavymetal">Heavy metal</label>
+    <br>
+    <input type="checkbox" id="anarchopunk">
+    <label for="anarchopunk">anarcho-punk</label>
+    <br>
+    <input type="checkbox" id="riik">
+    <label for="riik">Riik</label>
+    <br>
+    <input type="checkbox" id="blues">
+    <label for="blues">Blues</label>
+    <br>
+    <input type="checkbox" id="jazz">
+    <label for="jazz">Jazz</label>
+    <br>
+    <input type="checkbox" id="sansoon">
+    <label for="sansoon">Šansoon</label>
+    <br>
+    <!--värvi valik-->
+    <br>
+    <label for="varv">Mis värvi on rock muusika?</label>
+    <input type="color" id="varv">
+    <br>
+    <!--ripploend-->
+    <label for="tund">Mis tundi päevas sa kuuladmuusikat</label>
+    <select name="tund" id="tund">
+        <option value="15 min">15min</option>
+        <option value="1 tund">1 tund</option>
+        <option value="2 tundi">2 tundi</option>
+        <option value="3-5 tundi">3-5 tundi</option>
+        <option value="pool päeva">pool päeva</option>
+    </select>
+    <br>
+    0 tundi<input type="range" min="0" max="24" id="range">24 tundi
+<br>
+    <br>
+    - Kas sa kuulad raadiot?
+    <br>
+    <input type="radio" id="ja" name="ryhm" checked>
+    <label for="ja">Jah</label>
+    <br>
+    <input type="radio" id="Ei" name="ryhm">
+    <label for="Ei">Ei</label>
+    <br>
+    <input type="radio" id="Eitea" name="ryhm">
+    <label for="Eitea">Ei tea</label>
+    <br>
+    <br>
+    - Milliseid raadiojaame sa oskad nimetada?
+    <br>
+    <input type="checkbox" id="kissfm">
+    <label for="kissfm">Kiss FM</label>
+    <br>
+    <input type="checkbox" id="myhits">
+    <label for="myhits">MyHits</label>
+    <br>
+    <input type="checkbox" id="retrofm">
+    <label for="retrofm">Retro FM</label>
+    <br>
+    <label for="var">Sinu enda valik</label>
+    <input type="text" id="var" placeholder=".....">
+    <br>
+    <br>
+    - Milal sa käisid viimati muusika kontserdil?
+    <br>
+    <label for="kon">Kontserdi nimi</label>
+    <input type="data" id="kon" placeholder="....">
+
+
+</form>
+
+</body>
+</html>
